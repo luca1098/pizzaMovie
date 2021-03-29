@@ -1,0 +1,12 @@
+
+@import './base/base-index.scss';
+@import './components/components-index.scss';
+
+html,body{
+    margin: 0;
+    padding:0;
+}
+
+li{
+    list-style: none;
+}

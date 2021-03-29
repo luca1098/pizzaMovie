@@ -1,0 +1,25 @@
+
+.navbar{
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    a{
+        color: #fff;
+        text: {
+            transform:uppercase;
+            decoration:none
+        }
+    }
+}
+
+.navContainer{
+    @extend .container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        li{
+            margin: 0 1rem;
+        }
+    }
+}
